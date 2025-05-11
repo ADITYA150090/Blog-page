@@ -32,7 +32,7 @@ copyright = "Designed & Developed by [webloom](https://github.com/ADITYA150090)"
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
-enable = false
+enable = true
 preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
@@ -55,24 +55,24 @@ show_categories = true
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = false
+enable = true
 expire_days = 7
-content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
+content = "Buy any course at @999"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
-twitter = "zeon_studio"
+keywords = ["Aditya Dhawle", "Aditya1000"]
+description = "Software Engineer"
+author = "Aditya Dhawle"
+twitter = ""
 image = "images/og-image.png"
 
 
 # site verifications
 # verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications
 [site_verification]
-google = ""   # Your verification code
+google = "google5b90f1adb5735279"   # Your verification code
 bing = ""     # Your verification code
 baidu = ""    # Your verification code
 facebook = "" # Your verification code
