@@ -1,0 +1,85 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Doc"
+url = "/doc"
+weight = 3
+
+[[main]]
+name = "Projects"
+url = "/"
+weight = 4
+
+[[main]]
+name = "Side-hustle"
+url = "/youtube"
+weight = 5
+
+[[main]]
+name = "Cources"
+url = "/cources"
+weight = 6
+
+
+
+[[main]]
+weight = 8
+name = "Projects"
+
+[[main]]
+parent = "Projects"
+name = "Frontend"
+url = "/Frontend"
+
+[[main]]
+parent = "Projects"
+name = "Fullstack"
+url = "/"
+
+[[main]]
+parent = "Projects"
+name = "AI-ML"
+url = "/b"
+
+[[main]]
+parent = "Projects"
+name = "IOT"
+url = "/"
+
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 9
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 10
+
+# footer menu
+[[footer]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Project"
+url = "/projects"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 3

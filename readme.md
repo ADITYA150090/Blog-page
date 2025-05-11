@@ -1,8 +1,8 @@
 <h1 align="center">Hugo + Tailwind CSS Starter and Boilerplate</h1>
 
-<p align="center">Hugoplate is a free starter template built with Hugo, and Tailwind CSS v4.0, providing everything you need to jumpstart your Hugo project and save valuable time.</p>
+<p align="center">hugoplate is a free starter template built with Hugo, and Tailwind CSS v4.0, providing everything you need to jumpstart your Hugo project and save valuable time.</p>
 
-<p align="center">Made with ♥ by <a href="https://zeon.studio/"> Zeon Studio</a></p>
+<p align="center">Made with ♥ by <a href=""> webloom</a></p>
 <p align=center> If you find this project useful, please give it a ⭐ to show your support.</p>
 
 <h2 align="center"> <a target="_blank" href="https://zeon.studio/preview?project=hugoplate" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-hugoplate-netlify-app/6lyxjw6t4r?form_factor=desktop">Page Speed (95+)🚀</a>
@@ -93,7 +93,7 @@ To start using this template, you need to have some prerequisites installed on y
 
 ### 👉 Project Setup
 
-We build this custom script to make your project setup easier. It will create a new Hugo theme folder, and clone the Hugoplate theme into it. Then move the exampleSite folder into the root directory. So that you can start your Hugo server without going into the exampleSite folder. Use the following command to setup your project.
+We build this custom script to make your project setup easier. It will create a new Hugo theme folder, and clone the hugoplate theme into it. Then move the exampleSite folder into the root directory. So that you can start your Hugo server without going into the exampleSite folder. Use the following command to setup your project.
 
 ```bash
 npm run project-setup
@@ -214,7 +214,7 @@ If your problem or idea has not been addressed yet, feel free to [open a new iss
 
 ### 📝 License
 
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
+Copyright (c) 2023 - Present, Designed & Developed by [webloom](https://zeon.studio/)
 
 **Code License:** Released under the [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) license.
 
@@ -224,7 +224,7 @@ Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon
 
 ## 🖼️ Showcase
 
-List of some projects people are building with **Hugoplate**!
+List of some projects people are building with **hugoplate**!
 
 | [![Open Neuromorphic](https://tinyurl.com/hp7avtje)](https://open-neuromorphic.org/) | [![AI Models](https://tinyurl.com/mu4p7dhb)](https://aimodels.org/) | [![Hugobricks](https://tinyurl.com/4x3uwhm9)](https://www.hugobricks.preview.usecue.com/) | [![ONO LLC](https://tinyurl.com/2fbjzwzn)](https://ono.day/)
 |:---:|:---:|:---:|:---:|
@@ -232,6 +232,4 @@ List of some projects people are building with **Hugoplate**!
 
 ---
 
-## 💻 Need Customization?
 
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/estimate-project).

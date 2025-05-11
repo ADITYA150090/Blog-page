@@ -1,0 +1,23 @@
+{
+    "main": [{
+            "name": "facebook",
+            "icon": "fab fa-instagram",
+            "link": "https://www.instagram.com/aditya1000ac/"
+        },
+        {
+            "name": "leetcode",
+            "icon": "fab fa-youtube",
+            "link": "https://www.youtube.com/@ADITYAz1000/videos"
+        },
+        {
+            "name": "github",
+            "icon": "fab fa-github",
+            "link": "https://github.com/ADITYA150090"
+        },
+        {
+            "name": "linkedin",
+            "icon": "fab fa-linkedin",
+            "link": "https://www.linkedin.com/in/aditya-dhawle-3932a124b/"
+        }
+    ]
+}
