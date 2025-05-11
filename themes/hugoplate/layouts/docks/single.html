@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../hugoplate/assets/css/custom.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Contents</h2>
+            <nav id="toc">
+                {{ .TableOfContents }}
+            </nav>
+        </aside>
+        <main class="content">
+            <h1>{{ .Title }}</h1>
+            <article>
+                {{ .Content }}
+            </article>
+        </main>
+    </div>
+</body>
+
+</html>

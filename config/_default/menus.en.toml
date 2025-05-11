@@ -13,8 +13,29 @@ weight = 2
 
 [[main]]
 name = "Doc"
-url = "/doc"
+url = "/docks"
 weight = 3
+
+[[main]]
+parent = "Doc"
+name = "JavaScript"
+url = "/"
+[[main]]
+parent = "Doc"
+name = "Java"
+url = "/"
+[[main]]
+parent = "Doc"
+name = "C++"
+url = "/"
+[[main]]
+parent = "Doc"
+name = "Python"
+url = "/"
+[[main]]
+parent = "Doc"
+name = "Rust"
+url = "/"
 
 [[main]]
 name = "Projects"
@@ -26,10 +47,6 @@ name = "Side-hustle"
 url = "/youtube"
 weight = 5
 
-[[main]]
-name = "Cources"
-url = "/cources"
-weight = 6
 
 
 

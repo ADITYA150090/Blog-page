@@ -1,18 +1,7 @@
 ---
-title: "How to build an Application with modern Technology"
-meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
-categories: ["chess", "Bobby"]
-author: "Aditya dhawle"
-tags: ["opening", "ruy lopez"]
-draft: false
----
----
-title: "Projects"
+title: "Elements"
 # meta title
-meta_title: "Projects"
+meta_title: ""
 # meta description
 description: "This is meta description"
 # save as draft
