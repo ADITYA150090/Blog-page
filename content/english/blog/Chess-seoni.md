@@ -28,7 +28,7 @@ The atmosphere felt heavy, and I couldn't shake off the feeling that black piece
 The rain outside seemed to mirror my own feelings of doubt, tapping on the window as if to remind me of my internal struggle. But I pushed on, move after move, despite the looming sense of inevitable loss. I could hear the moves of my opponent with each calculated maneuver. Yet, something strange happened—the deeper I went into the game, the more I began to realize the opportunities hidden within those black pieces.
 
 ![[chess-seoni.jpg]]
-## **The Discovered Check: My Turning Point**
+## **The Discovered Check: My Turning Point update**
 Then came the moment that changed everything: a discovered check. As my opponent moved a piece, I saw an opening I hadn’t noticed before. A piece shifted, uncovering a devastating check. In that instant, the feeling of defeat evaporated, replaced by an adrenaline rush of excitement.
 
 I remembered everything I had studied—everything I had practiced. I seized the moment and executed the discovered check with precision. The veteran player, who had been dominating the game, suddenly found himself on the defensive. For the first time in the match, I felt in control.
