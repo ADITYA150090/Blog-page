@@ -1,0 +1,22 @@
+{{/* layouts/partials/e-store/list.html */}}
+<div class="e-store">
+    <h2>Available PDF Notes</h2>
+    <div class="product-list">
+        {{ if .Pages }}
+        <!-- Check if there are any pages -->
+        {{ range .Pages }}
+        <div class="product-item">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>Price: {{ .Params.price }}</p>
+            <p>{{ .Summary }}</p>
+            <a href="{{ .Params.pdf }}" class="btn" download>Download PDF</a>
+        </div>
+        {{ end }}
+        <!-- End of range -->
+        {{ else }}
+        <p>No products available.</p>
+        <!-- Message if no products are found -->
+        {{ end }}
+        <!-- End of if -->
+    </div>
+</div>

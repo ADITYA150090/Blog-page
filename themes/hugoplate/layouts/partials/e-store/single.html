@@ -1,0 +1,12 @@
+{{/* layouts/e-store/single.html */}} {{ define "main" }}
+<div class="product-detail">
+    <h1>{{ .Title }}</h1>
+    <p>Price: {{ .Params.price }}</p>
+    <div class="description">
+        {{ .Content }}
+        <!-- This will display the content of the product Markdown file -->
+    </div>
+    <a href="{{ .Params.pdf }}" class="btn" download>Download PDF</a>
+    <a href="/e-store/" class="btn">Back to Store</a>
+</div>
+{{ end }}

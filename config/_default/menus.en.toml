@@ -14,38 +14,38 @@ weight = 2
 [[main]]
 name = "Doc"
 url = "/docks"
-weight = 3
+weight = 4
 
 [[main]]
 parent = "Doc"
 name = "JavaScript"
-url = "/"
+url = "/j"
 [[main]]
 parent = "Doc"
 name = "Java"
-url = "/"
+url = "/j"
 [[main]]
 parent = "Doc"
 name = "C++"
-url = "/"
+url = "/j"
 [[main]]
 parent = "Doc"
 name = "Python"
-url = "/"
+url = "/j"
 [[main]]
 parent = "Doc"
 name = "Rust"
-url = "/"
+url = "/j"
 
 [[main]]
 name = "Projects"
-url = "/"
+url = "/j"
 weight = 4
 
 [[main]]
-name = "Side-hustle"
-url = "/youtube"
-weight = 5
+name = "E-Store"
+url = "/e-store"
+weight = 3
 
 
 
@@ -62,7 +62,7 @@ url = "/Frontend"
 [[main]]
 parent = "Projects"
 name = "Fullstack"
-url = "/"
+url = "/j"
 
 [[main]]
 parent = "Projects"
