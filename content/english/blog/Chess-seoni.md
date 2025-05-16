@@ -3,7 +3,7 @@ title: My First Win Against a FIDE Player
 meta_title: "Overcoming the Odds: My Journey to Defeat a FIDE-Rated Player"
 description: A rainy day, black pieces, and an overwhelming challenge. Here’s how I managed to outplay a top-rated player at the Seoni District International FIDE Rapid Rating Open Chess Tournament in 2024.
 date: 2025-05-14T18:40:00Z
-image: obsidian://open?vault=ADITYA1000&file=Post%2Fchess-seoni%201.jpg
+image: C:\Users\USER\Documents\BLOG\ADITYA1000\Post
 categories:
   - Chess
   - Fide
