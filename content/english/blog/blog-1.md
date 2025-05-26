@@ -80,21 +80,23 @@ ID and CLASS
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Light / Dark Mode Toggle</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body class="light-mode">
-  <div class="container">
-    <h1>Welcome to Light/Dark Mode Demo</h1>
-    <p>This is a simple example to toggle between light and dark modes.</p>
-    <button id="toggleBtn">Switch to Dark Mode</button>
-  </div>
 
-  <script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="body">
+        <div class="btn">dark mode</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Offi</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
 
 
@@ -105,51 +107,33 @@ Target ID and Class in CSS
 ```javascript
 /* Target the class */
 /* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
 body {
-  font-family: Arial, sans-serif;
-  transition: background-color 0.5s ease, color 0.5s ease;
-  margin: 0;
-  padding: 2rem;
+    height: 100%;
+    width: 100%;
 }
 
-.container {
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+#body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
 }
 
-/* Light Mode Styles */
-.light-mode {
-  background-color: #ffffff;
-  color: #333333;
+.btn {
+    height: 20px;
+    width: 80px;
+    background-color: aqua;
+    cursor: pointer;
 }
-
-/* Dark Mode Styles */
-.dark-mode {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
-/* Button styling */
-button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #008cba;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #005f5f;
-}
-
   
 ```
 
@@ -159,23 +143,19 @@ button:hover {
 
 flowchart TD
 
-    A[Start] --> B{Is background color white or empty?}
-    
-    B -- Yes --> C[Set background to black]
-    
-    C --> D[Set text color to white]
-    
-    D --> E[Change button text to Light Mode]
-    
-    E --> F[End]
+    A[Start] --> B{Is flag equal to 1?}
 
-    B -- No --> G[Set background to white]
-    
-    G --> H[Set text color to black]
-    
-    H --> I[Change button text to Dark Mode]
-    
-    I --> F
+    B -- Yes --> C[Set background to black]
+    C --> D[Set text color to white]
+    D --> E[Change button text to Light Mode]
+    E --> F[Set flag to 0]
+    F --> G[End]
+
+    B -- No --> H[Set background to white]
+    H --> I[Set text color to black]
+    I --> J[Change button text to Dark Mode]
+    J --> K[Set flag to 1]
+    K --> G
 
 
 ```
@@ -184,19 +164,23 @@ flowchart TD
 ```javascript
 
 
-const box = document.querySelector("#toggleBtn");
-const body = document.body;
+let flag = 1;
+document.querySelector(".btn").addEventListener("click", function() {
+    let B = document.querySelector("#body");
+    let btn = document.querySelector(".btn");
 
-box.addEventListener("click", function() {
-
-    if (body.style.backgroundColor === "white" || body.style.backgroundColor === "") {
-        body.style.backgroundColor = "black";
-        body.style.color = "white"; // make text visible in dark mode
-        box.innerHTML = "Light Mode";
+    if (flag === 1) {
+        // Switch to dark mode
+        B.style.backgroundColor = "black";
+        B.style.color = "white";
+        btn.innerHTML = "Light Mode";
+        flag = 0;
     } else {
-        body.style.backgroundColor = "white";
-        body.style.color = "black"; // reset text color for light mode
-        box.innerHTML = "Dark Mode";
+        // Switch to light mode
+        B.style.backgroundColor = "white";
+        B.style.color = "black";
+        btn.innerHTML = "Dark Mode";
+        flag = 1;
     }
 });
 
