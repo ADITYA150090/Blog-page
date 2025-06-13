@@ -44,7 +44,7 @@ weight = 4
 
 [[main]]
 name = "E-Store"
-url = "/e-store"
+url = "/E-store"
 weight = 3
 
 

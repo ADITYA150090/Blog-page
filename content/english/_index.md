@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "**ADITYA 1000**"
+  title: "**ADITYA Dhawle**"
   content: "This blog is my digital space — a journal of ideas, explorations, and thoughts. From deep dives into tech and science to reflections on life, philosophy, and personal growth, you'll find a mix of everything that fuels my mind.
 
 ***Welcome to my world.***"
@@ -89,12 +89,12 @@ This isn’t just technology. It’s a movement.
 And it’s changing everything."
     button:
       enable: true
-      label: "Shlok"
+      label: "Read"
       link: ""
 
   - title: "  Software Engineering (FAANG & Product Companies)"
     image: "https://itamargilad.com/wp-content/uploads/2022/08/FAANG-small.jpg"
-    content: "  Ram-The Ikshvaku Dynasty, Arjuna, Shivaji Maharaj, Karna, Maharana Pratap,Ashoka the Great,Chandragupta MauryaGoogle, Amazon, Meta, Apple, Netflix—these aren’t just companies, they’re ecosystems shaping how billions live, work, and connect.
+    content: " Google, Amazon, Meta, Apple, Netflix—these aren’t just companies, they’re ecosystems shaping how billions live, work, and connect.
 
 At the heart of it all?
 Software Engineers—the architects of the digital age.
@@ -109,7 +109,7 @@ Your brain is your IDE. Are you ready to debug your limits?
 This is more than a job—it’s a chance to engineer the tools that shape tomorrow."
     button:
       enable: true
-      label: "Shlok"
+      label: "Read"
       link: ""
 
   - title: " Quantitative Finance & Algorithmic Trading "
@@ -133,7 +133,7 @@ You don’t need a suit to beat Wall Street anymore.
 Just a keyboard, a strategy, and a mind wired for numbers."
     button:
       enable: true
-      label: "Shlok"
+      label: "Read"
       link: ""
   - title: " Robotics & Embedded Systems"
     image: "https://media.geeksforgeeks.org/wp-content/uploads/20241224173023067198/Future-of-Robotics.webp"
@@ -161,7 +161,7 @@ When you can build a machine that controls the world around it?
 "
     button:
       enable: true
-      label: "Shlok"
+      label: "Read"
       link: ""
   - title: " Augmented Reality (AR), Virtual Reality (VR) & Metaverse"
     image: "https://www.blockchain-council.org/wp-content/uploads/2022/06/What-is-augmented-reality-and-why-is-it-important-for-the-Metaverse-01.png"
@@ -181,6 +181,6 @@ This isn’t science fiction.
 It’s the next evolution of the internet—and your imagination is the limit."
     button:
       enable: true
-      label: "Shlok"
+      label: "Read"
       link: ""
 ---
