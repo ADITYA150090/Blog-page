@@ -10,7 +10,7 @@ banner:
   button:
     enable: true
     label: "Grab bar of knowledge "
-    link: "https://github.com/zeon-studio/hugoplate"
+    link: "https://www.adityadhawle.dev/en/blog"
 
 # Features
 features:
