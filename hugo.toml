@@ -85,7 +85,7 @@ maxAge = "720h"
 unsafe = true
 
 [markup.highlight]
-style = 'manni' # see https://xyproto.github.io/splash/docs/all.html
+style = 'modus-vivendi' # see https://xyproto.github.io/splash/docs/all.html
 lineNumbersInTable = true
 
 [markup.tableOfContents]
