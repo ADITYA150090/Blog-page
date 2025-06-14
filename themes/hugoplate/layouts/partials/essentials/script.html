@@ -6,7 +6,7 @@
 
 <!-- main script -->
 {{ $scripts = $scripts | append (resources.Get "js/main.js") }} {{ $scripts = $scripts | resources.Concat "js/script.js" }} {{ $scriptsLazy = $scriptsLazy | resources.Concat "js/script-lazy.js" }} {{ if hugo.IsProduction }} {{ $scripts = $scripts | minify
-| fingerprint }} {{ $scriptsLazy = $scriptsLazy | minify | fingerprint }} {{ end }} {{/* scripts */}}
+| fingerprint }} {{ $scriptsLazy = $scriptsLazy | minify | fingerprint }} {{ end }} scripts
 <script crossorigin="anonymous" integrity="{{ $scripts.Data.Integrity }}" src="{{ $scripts.RelPermalink }}"></script>
 
 {{/* scripts lazy */}}
