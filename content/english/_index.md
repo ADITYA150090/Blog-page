@@ -1,11 +1,11 @@
 ---
 # Banner
 banner:
-  title: "**ADITYA Dhawle**"
+  title: "**ADITYA DHAWLE**"
   content: "This blog is my digital space — a journal of ideas, explorations, and thoughts. From deep dives into tech and science to reflections on life, philosophy, and personal growth, you'll find a mix of everything that fuels my mind.
 
 ***Welcome to my world.***"
-  image: "https://i.redd.it/d60dp21zx4iz.gif"
+  image: "images/banner2.png"
   
   button:
     enable: true

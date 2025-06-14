@@ -34,4 +34,5 @@ require (
 	github.com/gethugothemes/hugo-modules/table-of-contents v0.0.0-20250506103127-ece249538add // indirect
 	github.com/gethugothemes/hugo-modules/videos v0.0.0-20250506103127-ece249538add // indirect
 	github.com/hugomods/mermaid v0.1.4 // indirect
+	github.com/zeon-studio/hugoplate v0.0.0-20250515111713-349436c8d33b // indirect
 )
