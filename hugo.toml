@@ -33,7 +33,7 @@ shortname = 'disqus_ocVtsOQL61' # we use disqus to show comments in blog posts .
 
 ########################## Pagination ############################
 [pagination]
-disableAliases = false
+disableAliases = true
 pagerSize = 10
 path = 'page'
 
