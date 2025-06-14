@@ -11,68 +11,7 @@ name = "About"
 url = "/about"
 weight = 2
 
-[[main]]
-name = "Doc"
-url = "/docks"
-weight = 4
 
-[[main]]
-parent = "Doc"
-name = "JavaScript"
-url = "/j"
-[[main]]
-parent = "Doc"
-name = "Java"
-url = "/j"
-[[main]]
-parent = "Doc"
-name = "C++"
-url = "/j"
-[[main]]
-parent = "Doc"
-name = "Python"
-url = "/j"
-[[main]]
-parent = "Doc"
-name = "Rust"
-url = "/j"
-
-[[main]]
-name = "Projects"
-url = "/j"
-weight = 4
-
-[[main]]
-name = "E-Store"
-url = "/E-store"
-weight = 3
-
-
-
-
-[[main]]
-weight = 8
-name = "Projects"
-
-[[main]]
-parent = "Projects"
-name = "Frontend"
-url = "/Frontend"
-
-[[main]]
-parent = "Projects"
-name = "Fullstack"
-url = "/j"
-
-[[main]]
-parent = "Projects"
-name = "AI-ML"
-url = "/b"
-
-[[main]]
-parent = "Projects"
-name = "IOT"
-url = "/"
 
 
 [[main]]

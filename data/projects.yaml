@@ -1,0 +1,14 @@
+- title: Weather App
+  description: A sleek app that shows real-time weather using OpenWeatherMap API.
+  image: /images/weather-app.jpg
+  link: https://github.com/aditya/weather-app
+
+- title: Portfolio Website
+  description: A personal portfolio built using Hugo and TailwindCSS.
+  image: /images/portfolio.jpg
+  link: https://aditya.dev
+
+- title: Task Manager
+  description: A simple yet powerful task manager built in Vue.js and Firebase.
+  image: /images/task-manager.jpg
+  link: https://github.com/aditya/task-manager
