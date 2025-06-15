@@ -2,12 +2,12 @@
     "main": [{
             "name": "facebook",
             "icon": "fab fa-instagram",
-            "link": "https://www.instagram.com/aditya1000ac/"
+            "link": "https://www.instagram.com/adityadhawle.dev/"
         },
         {
             "name": "leetcode",
             "icon": "fab fa-youtube",
-            "link": "https://www.youtube.com/@ADITYAz1000/videos"
+            "link": "https://www.youtube.com/@aadityadeveloper"
         },
         {
             "name": "github",
