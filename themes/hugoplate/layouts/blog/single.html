@@ -32,7 +32,8 @@
 
                 <!-- Inject AdSense after 2nd paragraph -->
                 <div class="content mb-10">
-                    {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }} {{ partial "inject-adsense-to-content.html" . }}
+                    {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }} {{ partial "adsense-inline.html" . }}
+
                 </div>
 
                 <div class="row items-start justify-between">
@@ -55,6 +56,7 @@
                         {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "Whatsapp" false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
                     </div>
                 </div>
+                {{ partial "adsense-inline.html" . }}
 
                 <!-- comments -->
                 {{ if site.Config.Services.Disqus.Shortname }}
