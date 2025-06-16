@@ -1,0 +1,24 @@
+name: Update ads.txt daily
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs at 00:00 UTC daily
+
+jobs:
+  update-ads:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Fetch updated ads.txt
+        run: |
+          curl -L https://srv.adstxtmanager.com/19390/adityadhawle.dev > static/ads.txt
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "AdityaBot"
+          git config user.email "bot@adityadhawle.dev"
+          git add static/ads.txt
+          git commit -m "Update ads.txt [auto]" || echo "No changes to commit"
+          git push
