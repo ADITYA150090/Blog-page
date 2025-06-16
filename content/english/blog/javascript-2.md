@@ -1,5 +1,5 @@
 ---
-title: "Part 2: JS Logic for Beginners: Conditions, Loops & Functions”
+title: "Part 2: JS Logic for Beginners: Conditions, Loops & Functions"
 meta_title: ""
 description: "this is meta description"
 date: 2025-05-02T05:00:00Z

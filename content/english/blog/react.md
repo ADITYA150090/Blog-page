@@ -1,7 +1,7 @@
 ---
 title: "“React for Beginners: Think in Components, Build Like a Pro”"
-meta_title: "→ JSX, props, state, useState intro."
-description: "→ JSX, props, state, useState intro."
+meta_title: ""
+description: "this is meta description"
 date: 2025-05-02T05:00:00Z
 image: "/images/6.png"
 categories: ["A.I.", "Data Science"]

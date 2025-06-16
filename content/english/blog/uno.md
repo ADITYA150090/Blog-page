@@ -1,7 +1,7 @@
 ---
-title: "Arduino Uno Basics: Blink Your First LED Like a Pro"
-meta_title: "→ Breadboard intro, simple circuits, basic C code."
-description: "→ Breadboard intro, simple circuits, basic C code."
+title: "Getting Started with Python"
+meta_title: ""
+description: "this is meta description"
 date: 2025-05-02T05:00:00Z
 image: "/images/uno.png"
 categories: ["A.I.", "Data Science"]

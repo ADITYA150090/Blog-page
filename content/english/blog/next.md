@@ -1,7 +1,7 @@
 ---
-title: "“Next.js from Ground Zero: React Meets the Real Web”"
-meta_title: "→ Pages, routing, basic server-side rendering."
-description: "→ Pages, routing, basic server-side rendering."
+title: "Next.js from Ground Zero: React Meets the Real Web"
+meta_title: ""
+description: "this is meta description"
 date: 2025-05-02T05:00:00Z
 image: "/images/nextjs.png"
 categories: ["A.I.", "Data Science"]

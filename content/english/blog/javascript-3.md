@@ -1,5 +1,5 @@
 ---
-title: "Part 3: “DOM Drama: Making Your Website Come Alive with JavaScript”
+title: "Part 3: “DOM Drama: Making Your Website Come Alive with JavaScript"
 meta_title: ""
 description: "this is meta description"
 date: 2025-05-02T05:00:00Z
