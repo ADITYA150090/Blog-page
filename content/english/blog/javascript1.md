@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Python"
+title: "Part 1: “JavaScript from Scratch: Variables, Data & ‘Hello World’”
 meta_title: ""
 description: "this is meta description"
 date: 2025-05-02T05:00:00Z

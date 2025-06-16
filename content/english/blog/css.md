@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Python"
+title: "Dress to Impress: CSS for Stunning Web Looks"
 meta_title: ""
 description: "this is meta description"
 date: 2025-05-02T05:00:00Z

@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Python"
-meta_title: ""
-description: "this is meta description"
+title: "Tailwind for Beginners: Write Less CSS, Design Faster"
+meta_title: "→ Utility classes, responsiveness, basic layout styling."
+description: "→ Utility classes, responsiveness, basic layout styling."
 date: 2025-05-02T05:00:00Z
 image: "/images/tailwind.png"
 categories: ["A.I.", "Data Science"]

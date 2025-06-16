@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Python"
-meta_title: ""
-description: "this is meta description"
+title: "Express.js Made Easy: Your First Backend Route"
+meta_title: "Basic routing, server setup, and request handling."
+description: "Basic routing, server setup, and request handling."
 date: 2025-05-02T05:00:00Z
 image: "/images/expressjs.png"
 categories: ["A.I.", "Data Science"]

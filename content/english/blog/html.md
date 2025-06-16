@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Python"
-meta_title: ""
-description: "this is meta description"
+title: “HTML Basics: Building Blocks of Every Website”
+meta_title: "→ Tags, structure, semantic HTML, intro to forms."
+description: "→ Tags, structure, semantic HTML, intro to forms."
 date: 2025-05-02T05:00:00Z
 image: "/images/1.png"
 categories: ["A.I.", "Data Science"]

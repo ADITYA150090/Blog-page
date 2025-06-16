@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Python"
-meta_title: ""
-description: "this is meta description"
+title: "3D for Beginners: Your First Steps in Three.js"
+meta_title: "→ Adding a cube, setting a scene, intro to WebGL concepts"
+description: "→ Adding a cube, setting a scene, intro to WebGL concepts"
 date: 2025-05-02T05:00:00Z
 image: "/images/threejs.png"
 categories: ["A.I.", "Data Science"]

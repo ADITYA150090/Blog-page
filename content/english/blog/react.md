@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Python"
-meta_title: ""
-description: "this is meta description"
+title: "“React for Beginners: Think in Components, Build Like a Pro”"
+meta_title: "→ JSX, props, state, useState intro."
+description: "→ JSX, props, state, useState intro."
 date: 2025-05-02T05:00:00Z
 image: "/images/6.png"
 categories: ["A.I.", "Data Science"]

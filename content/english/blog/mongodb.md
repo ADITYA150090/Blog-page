@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Python"
-meta_title: ""
-description: "this is meta description"
+title: "MongoDB for Beginners: Store Data the NoSQL Way"
+meta_title: "→ Collections, documents, basic queries, Mongo compass."
+description: "→ Collections, documents, basic queries, Mongo compass."
 date: 2025-05-02T05:00:00Z
 image: "/images/mongodb.png"
 categories: ["A.I.", "Data Science"]

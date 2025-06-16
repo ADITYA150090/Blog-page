@@ -1,7 +1,7 @@
 ---
-title: "Github"
-meta_title: ""
-description: "this is meta description"
+title: “What Even is GitHub? A Beginner’s Guide to Repos & Commits”
+meta_title: "→ Explaining Git, commits, pushes, forks, and pull requests."
+description: "→ Explaining Git, commits, pushes, forks, and pull requests."
 date: 2025-05-02T05:00:00Z
 image: "/images/github.png"
 categories: ["A.I.", "Data Science"]

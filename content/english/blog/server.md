@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Python"
-meta_title: ""
-description: "this is meta description"
+title: "🌍 Server (Node or General Hosting) What is a Server? Beginner’s Guide to the Tech Behind the Web"
+meta_title: "→ What servers do, basics of local server setup with Node."
+description: "t→ What servers do, basics of local server setup with Node."
 date: 2025-05-02T05:00:00Z
 image: "/images/SERVER.png"
 categories: ["A.I.", "Data Science"]

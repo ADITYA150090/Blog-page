@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Python"
-meta_title: ""
-description: "this is meta description"
+title: "Python for Newbies: Print, Play, and Power Up"
+meta_title: "→ Syntax, variables, functions, print() magic."
+description: "→ Syntax, variables, functions, print() magic."
 date: 2025-05-02T05:00:00Z
 image: "/images/py1.png"
 categories: ["A.I.", "Data Science"]
