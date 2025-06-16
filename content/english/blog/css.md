@@ -4,9 +4,9 @@ meta_title: ""
 description: "this is meta description"
 date: 2025-05-02T05:00:00Z
 image: "/images/2.png"
-categories: ["A.I.", "Data Science"]
+categories: ["Basic", "Web-dev"]
 author: "Aditya Dhawle"
-tags: ["nextjs", "tailwind"]
+tags: ["stylesheet", "CSS"]
 draft: false
 ---
 

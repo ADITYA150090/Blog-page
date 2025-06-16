@@ -4,9 +4,9 @@ meta_title: ""
 description: "this is meta description"
 date: 2025-05-02T05:00:00Z
 image: "/images/workshop.png"
-categories: ["Application", "Data"]
+categories: ["KDK", "web-dev"]
 author: "Aditya Dhawle"
-tags: ["nextjs", "tailwind"]
+tags: ["kdkce", "Workshop"]
 draft: false
 ---
 

@@ -4,9 +4,9 @@ meta_title: ""
 description: "this is meta description"
 date: 2025-05-02T05:00:00Z
 image: "/images/uno.png"
-categories: ["A.I.", "Data Science"]
+categories: ["Electronics", "Hardware"]
 author: "Aditya Dhawle"
-tags: ["nextjs", "tailwind"]
+tags: ["microcontroller", "ESP32"]
 draft: false
 ---
 
