@@ -2,7 +2,7 @@
 title: "HTML Basics: Building Blocks of Every Website"
 meta_title: ""
 description: "this is meta description"
-date: 2025-05-02T05:00:00Z
+date: 2025-06-17T05:00:00Z
 image: "/images/1.png"
 categories: ["Basic", "web-dev"]
 author: "Aditya Dhawle"
