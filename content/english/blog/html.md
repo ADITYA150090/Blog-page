@@ -38,14 +38,14 @@ Here’s the skeleton of every HTML page:
 
 
 ```
-**Boom. That’s your first program. You just told your computer to say something. You’re already winning.**
+
 
 
 ### Let’s break it down:
-- <!DOCTYPE html>: Tells the browser you’re using HTML5.
-- <html>: Wraps your entire webpage.
-- <head>: Stuff like title and meta data (not visible on the page).
-- <body>: The visible stuff like headings, paragraphs, buttons, images, etc.
+- !DOCTYPE html : Tells the browser you’re using HTML5.
+- html: Wraps your entire webpage.
+- head: Stuff like title and meta data (not visible on the page).
+- body: The visible stuff like headings, paragraphs, buttons, images, etc.
 
 
 <hr>
