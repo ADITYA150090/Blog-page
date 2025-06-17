@@ -11,9 +11,7 @@ draft: false
 ---
 
 
-{{< notice "Notice" >}}
-Hey hey, relax. You don’t need to master 100% of the syllabus. You just need to learn enough — the 20% that helps you move on to the next topic, build the next project, or crack that upcoming interview. That’s it. Learn smart, not hard.
-{{< /notice >}}
+
 
 ### HTML Basics – Your First Step into Web Development
 
@@ -24,6 +22,11 @@ Spoiler: Nope.
  ## What is HTML?
 HTML stands for HyperText Markup Language.
 It’s not a programming language — it’s a markup language, which means it tells the browser how to structure content.
+<br>
+{{< notice "Notice" >}}
+Hey hey, relax. You don’t need to master 100% of the syllabus. You just need to learn enough — the 20% that helps you move on to the next topic, build the next project, or crack that upcoming interview. That’s it. Learn smart, not hard.
+{{< /notice >}}
+<br>
 
 Here’s the skeleton of every HTML page:
 ```python
