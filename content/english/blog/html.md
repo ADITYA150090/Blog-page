@@ -2,7 +2,7 @@
 title: "HTML Basics: Building Blocks of Every Website"
 meta_title: ""
 description: "this is meta description"
-date: 2025-06-17T05:00:00Z
+
 image: "/images/1.png"
 categories: ["Basic", "web-dev"]
 author: "Aditya Dhawle"
@@ -11,6 +11,9 @@ draft: false
 ---
 
 
+{{< notice "Notice" >}}
+Hey hey, relax. You don’t need to master 100% of the syllabus. You just need to learn enough — the 20% that helps you move on to the next topic, build the next project, or crack that upcoming interview. That’s it. Learn smart, not hard.
+{{< /notice >}}
 
 ### HTML Basics – Your First Step into Web Development
 
@@ -42,10 +45,10 @@ Here’s the skeleton of every HTML page:
 
 
 ### Let’s break it down:
-- !DOCTYPE html : Tells the browser you’re using HTML5.
-- html: Wraps your entire webpage.
-- head: Stuff like title and meta data (not visible on the page).
-- body: The visible stuff like headings, paragraphs, buttons, images, etc.
+- !DOCTYPE html  Tells the browser you’re using HTML5.
+- html Wraps your entire webpage.
+- head Stuff like title and meta data (not visible on the page).
+- body The visible stuff like headings, paragraphs, buttons, images, etc.
 
 
 <hr>
