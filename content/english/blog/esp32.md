@@ -7,7 +7,7 @@ image: "/images/esp32.png"
 categories: ["Electronics", "Hardware"]
 author: "Aditya Dhawle"
 tags: ["microcontroller", "ESP32"]
-draft: false
+draft: flase
 ---
 
 

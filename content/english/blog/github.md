@@ -18,6 +18,8 @@ draft: false
 “You don’t need to know GitHub to code. You need GitHub to not completely mess up your code and your career.”
 {{< /notice >}}
 
+{{< adsense >}}
+
 
 ### WTF is GitHub and Why Should I Care?
 
