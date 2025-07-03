@@ -175,7 +175,8 @@ var count = 42;
 
 ### 🧠 Chapter 2: Data Types + Type System
 
-{{< spyads >}}
+{{< inarticlead >}}
+
 
 
 ##### 📦 What Are Data Types?
