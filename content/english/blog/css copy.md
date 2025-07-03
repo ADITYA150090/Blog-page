@@ -47,7 +47,7 @@ Let’s start with the basic structure of our counter app. This HTML code sets u
 </html>
 
 ```
-
+{{< adsense >}}
 
 ### CSS , Have some style
 
@@ -117,12 +117,15 @@ button:hover {
 
 ### Jump to the JavaScript logic we need behind the bars
 
+
+
 ### Flowchart
 
 {{< image src="images/jsflow1.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 
 <hr>
 
+{{< adsense >}}
 
 ```javascript
 let count = 0;
@@ -137,7 +140,7 @@ increase.addEventListener('click', () => {
 
 ```
 
-
+{{< adsense >}}
 
 ```javascript
 
@@ -164,4 +167,4 @@ reset.addEventListener('click', () => {
 
 ```
 
-
+{{< adsense >}}
