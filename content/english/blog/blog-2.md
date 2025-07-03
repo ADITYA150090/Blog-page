@@ -150,6 +150,9 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 <hr>
 
+
+ 
+
 ### Accordions
 
 {{< accordion "Why should you need to do this?" >}}
@@ -252,6 +255,7 @@ flowchart TD
 {{< youtube ResipmZmpDU >}}
 
 <hr>
+
 
 ### Custom video
 

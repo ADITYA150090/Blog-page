@@ -1,0 +1,130 @@
+<div class="quiz-tabs">
+    <div class="tab-buttons"></div>
+    <div class="tab-contents">
+        {{ .Inner }}
+    </div>
+</div>
+
+<div style="margin-top: 2rem;">
+    <button onclick="showFinalScore()" style="padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 6px; cursor: pointer;">
+      🧾 Show My Score
+    </button>
+    <p id="final-score-result" style="font-weight: bold; font-size: 1.2rem; margin-top: 10px;"></p>
+</div>
+
+<style>
+    .tab-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 1rem;
+    }
+    
+    .quiz-tab-button {
+        padding: 8px 16px;
+        background: #eaeaea;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    
+    .quiz-tab-button.active {
+        background: #007bff;
+        color: white;
+    }
+    
+    .quiz-tab-content {
+        display: none;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background: #fafafa;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const groups = document.querySelectorAll(".quiz-tabs");
+
+        groups.forEach(group => {
+            const buttons = group.querySelector(".tab-buttons");
+            const tabs = group.querySelectorAll(".quiz-tab-content");
+
+            tabs.forEach((tab, i) => {
+                const name = tab.getAttribute("data-tab");
+                const btn = document.createElement("button");
+                btn.className = "quiz-tab-button";
+                btn.textContent = name;
+
+                if (i === 0) {
+                    btn.classList.add("active");
+                    tab.style.display = "block";
+                }
+
+                btn.addEventListener("click", () => {
+                    tabs.forEach(t => t.style.display = "none");
+                    buttons.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+                    tab.style.display = "block";
+                    btn.classList.add("active");
+                });
+
+                buttons.appendChild(btn);
+            });
+        });
+    });
+
+    window.quizAnswers = {};
+    window.quizSubmitted = {};
+
+    function checkQuizAnswer(id, correctAnswer) {
+        const options = document.getElementsByName('quiz-' + id);
+        let selected = null;
+        for (let o of options) {
+            if (o.checked) {
+                selected = o.value;
+                break;
+            }
+        }
+
+        const result = document.getElementById('quiz-result-' + id);
+        if (!selected) {
+            result.textContent = "❗ Please select an answer.";
+            result.className = "result warning";
+            return;
+        }
+
+        if (selected === correctAnswer) {
+            result.textContent = "✅ Correct!";
+            result.className = "result correct";
+            window.quizAnswers[id] = true;
+        } else {
+            result.textContent = "❌ Wrong!";
+            result.className = "result wrong";
+            window.quizAnswers[id] = false;
+        }
+
+        window.quizSubmitted[id] = true;
+    }
+
+    function showFinalScore() {
+        const total = Object.keys(window.quizSubmitted).length;
+        const correct = Object.values(window.quizAnswers).filter(Boolean).length;
+
+        const result = document.getElementById('final-score-result');
+        if (total === 0) {
+            result.textContent = "⚠️ You haven’t submitted any answers yet.";
+            result.style.color = "orange";
+            return;
+        }
+
+        if (Object.keys(window.quizAnswers).length < total) {
+            result.textContent = "📋 Please answer all questions first.";
+            result.style.color = "orange";
+            return;
+        }
+
+        result.textContent = `🎯 You got ${correct} out of ${total} correct!`;
+        result.style.color = correct === total ? "green" : "#ffc107";
+    }
+</script>
