@@ -115,6 +115,8 @@ button:hover {
 
 <hr>
 
+{{< adsense >}}
+
 ### Jump to the JavaScript logic we need behind the bars
 
 
@@ -167,4 +169,4 @@ reset.addEventListener('click', () => {
 
 ```
 
-{{< adsense >}}
+
