@@ -181,6 +181,10 @@ var count = 42;
 
 ##### 📦 What Are Data Types?
 
+
+{{< adsense >}}
+
+
 <p>In JavaScript, every value has a type.
 These types define what kind of data is being stored — a number, text, boolean, object, etc.
 There are two categories:</p>
