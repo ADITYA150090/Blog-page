@@ -48,6 +48,8 @@ Still not convinced?
 <p>Without GitHub, every mistake becomes a tragedy. With GitHub, it’s just another commit.</p>
 <hr>
 
+{{< adsense >}}
+
 ### 📦 Repositories: Not Just Fancy Folders
 
 <p>A repository (aka repo) is like a project box. You put files in. You update them. You make changes. And GitHub keeps track of every damn thing.</p>
@@ -60,6 +62,8 @@ Create repos like you’re documenting your journey. Someday, someone might be i
 
 <hr>
 
+{{< adsense >}}
+
 ### 🧠 Basic Concepts (Explained Like You’re Five)
 
 1. Commit = A save point in your code. Like hitting Ctrl+S, but smarter.
@@ -70,6 +74,8 @@ Create repos like you’re documenting your journey. Someday, someone might be i
 6. Fork = Copying someone else’s repo and pretending it’s yours (with credit).
 
 <hr>
+
+{{< adsense >}}
 
 ### 👣 Your First GitHub Ritual (Step-by-Step)
 
@@ -114,6 +120,8 @@ Boom. You’re officially less of a noob.
 
 <hr>
 
+{{< adsense >}}
+
 ### 🔫 GitHub Desktop: The Lazy Genius Way
 Too scared of terminal? No shame.
 
@@ -133,6 +141,7 @@ It lets you:
 
 ## 🧾 The Only Git Cheat Sheet You’ll Ever Need
 
+{{< adsense >}}
 ##### Setup
 
 ```python
@@ -180,6 +189,8 @@ git checkout -- file.txt   # Revert file
 ```
 <hr>
 
+{{< adsense >}}
+
 ### 🚫 Mistakes You’ll Make (and How to Fix Them)
 
 | 💥 Mistake                | 😵 What You Did                               | 🛠️ How to Unmess It                                      |
@@ -192,6 +203,7 @@ git checkout -- file.txt   # Revert file
 
 <hr>
 
+{{< adsense >}}
 
 ### 🧙 GitHub Pro Tips (For Future You)
 
@@ -201,7 +213,7 @@ git checkout -- file.txt   # Revert file
 - Use README.md like it’s your Tinder bio. It sells your code.
 - Contribute to open-source. It’s scary, but good scary.
 
-
+{{< adsense >}}
 
 ### 📚 Extra Learning Resources
 
