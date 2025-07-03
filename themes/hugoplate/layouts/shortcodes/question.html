@@ -1,0 +1,22 @@
+{{ $q := .Get "q" }} {{ $options := split (.Get "options") "|" }} {{ $answer := .Get "answer" }} {{ $index := .Ordinal }}
+
+<script>
+    correctAnswers[{
+        {
+            sub $index 1
+        }
+    }] = {
+        {
+            $answer
+        }
+    };
+</script>
+
+<div class="quiz-question" style="display: {{ if eq $index 1 }}block{{ else }}none{{ end }};">
+    <h3>Q{{ $index }}: {{ $q }}</h3>
+    {{ range $i, $opt := $options }}
+    <label><input type="radio" name="q{{ sub $index 1 }}" value="{{ $i }}"> {{ $opt }}</label><br> {{ end }}
+    <button type="button" onclick="nextQuestion({{ sub $index 1 }})">
+    {{ if eq .IsLast true }}Finish Quiz{{ else }}Next{{ end }}
+  </button>
+</div>
