@@ -10,7 +10,7 @@ tags: ["JavaScript", "DOM"]
 draft: false
 ---
 
-# Complete JS Course Syllabus
+# Complete JavaScript Syllabus
 
 ### 📦 Chapter 1: Variables & Declarations
 
@@ -329,7 +329,7 @@ just an invalid one.
 
 {{< /quiztabs >}}
 
-
+ {{< sqads >}}
 
 ### 🔄 Chapter 3: Operators
 ##### 🔧 What are Operators?
@@ -538,6 +538,8 @@ Try to:</p>
 {{< /quiztabs >}}
 
 
+ {{< sqads >}}
+
 ### 🧭 Chapter 4: Control Flow
 
 
@@ -669,6 +671,7 @@ Write readable branches. Avoid nesting too deep — use early return if needed</
 
 {{< /quiztabs >}}
 
+ {{< sqads >}}
 
 ### 🔁 Chapter 5: Loops
 
@@ -830,6 +833,8 @@ for (let key in user) {
 
 {{< /quiztabs >}}
 
+
+ {{< sqads >}}
 
 ### 🧮 Chapter 6: Functions
 
@@ -1059,6 +1064,7 @@ They keep your code clean, DRY, and reusable.
  {{< /quiztabs >}}
 
 
+ {{< sqads >}}
 
 ### 🧰 Chapter 7: Arrays
 
@@ -1226,7 +1232,7 @@ let newArr = [...nums, 99]; // Spread to copy & add
 
  {{< /quiztabs >}}
 
-
+ {{< sqads >}}
 
 ### 🧱 Chapter 8: Objects
 
@@ -1431,3 +1437,5 @@ Use destructuring, chaining, and dynamic keys wisely.
 {{< /quiztab >}}
 
 {{< /quiztabs >}}
+
+ {{< sqads >}}
