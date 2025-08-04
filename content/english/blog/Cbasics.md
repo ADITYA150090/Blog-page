@@ -7,7 +7,7 @@ image: "/images/2.png"
 categories: ["Basic", "Web-dev"]
 author: "Aditya Dhawle"
 tags: ["stylesheet", "CSS"]
-draft: false
+draft: true
 ---
 
 

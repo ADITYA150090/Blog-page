@@ -7,7 +7,7 @@ image: "/images/3.png"
 categories: ["Basic", "JavaScript"]
 author: "Aditya Dhawle"
 tags: ["JavaScript", "DOM"]
-draft: false
+draft: true
 ---
 
 # Complete JavaScript Syllabus

@@ -7,7 +7,7 @@ image: "/images/workshop.png"
 categories: ["KDK", "web-dev"]
 author: "Aditya Dhawle"
 tags: ["kdkce", "Workshop"]
-draft: false
+draft: true
 ---
 
 # HTML

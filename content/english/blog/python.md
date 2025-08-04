@@ -7,7 +7,7 @@ image: "/images/py1.png"
 categories: ["A.I.", "Data Science"]
 author: "Aditya Dhawle"
 tags: ["nextjs", "tailwind"]
-draft: false
+draft: true
 ---
 
 

@@ -7,7 +7,7 @@ image: "/images/5.png"
 categories: ["Basic", "web-dev"]
 author: "Aditya Dhawle"
 tags: ["nextjs", "tailwind"]
-draft: false
+draft: true
 ---
 
 

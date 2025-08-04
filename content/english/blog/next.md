@@ -7,7 +7,7 @@ image: "/images/nextjs.png"
 categories: ["Intermidiate", "web-dev"]
 author: "Aditya Dhawle"
 tags: ["nextjs", "tailwind"]
-draft: false
+draft: true
 ---
 
 

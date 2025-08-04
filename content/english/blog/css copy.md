@@ -7,7 +7,7 @@ image: "/images/JSproject1.png"
 categories: ["Basic", "JavaScript"]
 author: "Aditya Dhawle"
 tags: ["JavaScript", "DOM"]
-draft: false
+draft: true
 ---
 
 
